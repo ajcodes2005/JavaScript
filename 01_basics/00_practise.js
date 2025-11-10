@@ -474,13 +474,66 @@ let answer = product(5,7)
 //console.log(answer)
 
 let now = new Date();
-console.log(now)
+//console.log(now)
 let birthday = new Date("2006-10-19")
-console.log(birthday)
+//console.log(birthday)
 let newyear = new Date(2026, 0, 1)
-console.log(newyear)
+//console.log(newyear)
 let arrivalYear = new Date(2006, 9, 19)
-console.log(arrivalYear)
+//console.log(arrivalYear)
+
+let P = 7;
+let Q = 17;
+let R = 2;
+//console.log(P+Q);
+//console.log(P-(-Q));
+//console.log(P*Q);
+//console.log(P/Q);
+//console.log(Q/P);
+//console.log(Q%P);
+//console.log(P%Q);
+//console.log(P*R);
+//console.log(P**R);
+//console.log(Q**3);
+let operation1 = ((P-Q)*R);
+//console.log(operation1);
+let operation2 = ((R**3)-5/P);
+//console.log(operation2);
+let E = -9.9435;
+//console.log(Math.round(E));
+let F = 7.07613;
+//console.log(Math.round(F));
+let G = 6.3939;
+//console.log(Math.round(G))
+let H = 0.5;
+//console.log(Math.round(H));
+let comA = 0.9999899;
+console.log(Math.floor(comA));
+let comB = 0.5555555;
+console.log(Math.floor(comB));
+let comC = 0.111;
+console.log(Math.ceil(comC));
+let comD = 9.999253;
+console.log(Math.ceil(comD));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
