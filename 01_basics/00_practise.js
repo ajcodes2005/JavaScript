@@ -508,13 +508,89 @@ let G = 6.3939;
 let H = 0.5;
 //console.log(Math.round(H));
 let comA = 0.9999899;
-console.log(Math.floor(comA));
+//console.log(Math.floor(comA));
 let comB = 0.5555555;
-console.log(Math.floor(comB));
+//console.log(Math.floor(comB));
 let comC = 0.111;
-console.log(Math.ceil(comC));
+//console.log(Math.ceil(comC));
 let comD = 9.999253;
-console.log(Math.ceil(comD));
+//console.log(Math.ceil(comD));
+let comE = 99.11;
+//console.log(Math.ceil(comE));
+let extremes1 = (19,9,0.9);
+//console.log(Math.min(extremes1));
+let extremes2 = (99, 919, 88);
+//console.log(Math.max(extremes2));
+let powA = 19;
+let powB = 3;
+//console.log(Math.pow(19,3));
+//console.log(Math.sqrt(3));
+//console.log(Math.pow(3,19));
+//console.log(Math.sqrt(19));
+//console.log(Math.random());
+console.log(Math.PI)
+console.log(Math.E)
+let strP = "19.99"
+//console.log(parseInt(strP));
+//console.log(parseFloat(strP));
+//console.log(Number(strP));
+//console.log(+strP);
+let strQ = "7999.95sqrt2"
+//console.log(Number(strQ));
+//console.log(parseInt(strQ));
+//console.log(parseFloat(strQ));
+console.log(0.1+0.2)
+
+let equal = Math.abs(0.1+0.2)-0.3 <Number.EPSILON;
+console.log(equal);
+let unequal = Math.abs(0.1+0.9)-0.99999 <Number.EPSILON;
+//console.log(unequal);
+//console.log(Number("Age19"));
+//console.log(0/0);
+//console.log(Math.sqrt(-2));
+//console.log(17 === 17);
+//console.log(isNaN(17))
+//console.log(NaN === NaN);
+//console.log(false === false);
+//console.log(isNaN(99));
+//console.log(99/0);
+//console.log(-17/-0);
+//console.log(Number.isFinite(17/0));
+//console.log(Number.isFinite(17/5));
+
+let maximum = Number.MAX_SAFE_INTEGER
+//console.log(maximum);
+//console.log(maximum +1);
+//console.log(maximum +11);
+let JSbigInt = 9007199254740991n;
+//console.log(JSbigInt + 1n);
+//console.log(JSbigInt + 2n);
+
+//console.log(11n + 5);
+console.log(13n + BigInt(5))
+console.log(Number(13n) + 5);
+console.log(5n / 2n);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
