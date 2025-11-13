@@ -1,21 +1,30 @@
-let instantDate = new Date();
-//console.log(instantDate);
-//console.log(instantDate.getTime());
+let nonTrivial = new Date();
+console.log(nonTrivial);
 
-//console.log(instantDate.toString());
-//console.log(instantDate.toUTCString());
+let moment  = new Date();
+console.log(moment);
 
-let epoch = Date.now();
-//console.log(epoch);
+let begining = new Date(0);
+console.log(begining);
+console.log(begining.getTime());
 
-let maxDate = new Date(8.64e15);
-//console.log(maxDate);
-//console.log(new Date(8.64e15).toString);
-//console.log(new Date(8.64e15 +1).toString);
 
-let canonEvent1 = new Date("January 22, 2025 04:05:55 GMT+00:00")
-//console.log(canonEvent1.getTime());
-const birthDay = Date(19, 10, 2006)
+/* let normal = new Date(2025-11-13)
+console.log(normal); */
+let start = new Date(2006, 9, 19, 21, 23, 0)
+console.log(start);
+
+let myDob = new Date("2006-11-30T08:09:04");
+console.log( myDob.getFullYear());
+console.log(myDob.getMonth());
+console.log(myDob.getTimezoneOffset());
+console.log(myDob.getDay());
+console.log(myDob.getSeconds());
+
+
+
+
+
 
 
 
