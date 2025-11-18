@@ -1,101 +1,57 @@
-let nonTrivial = new Date();
-//console.log(nonTrivial);
+/* let primeNumbers = [2, 3, 5, 7, 11];
+primeNumbers.forEach(function (primeNumbers, index) {
+    console.log(`primeNumbers ${index+1}: ${primeNumbers} `);
+}) */
 
-let moment  = new Date();
-//console.log(moment);
+let USDprice = [35, 15, 99, 17];
 
-let begining = new Date(0);
-//console.log(begining);
-//console.log(begining.getTime());
+let INRprice = USDprice.map(function price() {
+    return price * 87 ;
+})
 
+//console.log(INRprice);
 
-/* let normal = new Date(2025-11-13)
-console.log(normal); */
-let start = new Date(2006, 9, 19, 21, 23, 0)
-//console.log(start);
-
-let myDob = new Date("2006-11-30T08:09:04");
-/* console.log( myDob.getFullYear());
-console.log(myDob.getMonth());
-console.log(myDob.getTimezoneOffset());
-console.log(myDob.getDay());
-console.log(myDob.getSeconds()); */
-
-let now = new Date();
-//console.log(now);
-//console.log(now.toString());
-//console.log(now.setFullYear(2049));
-//console.log(now.toString());
-//console.log(now.setMonth(9));
-//console.log(now.toString());
-//console.log(now.setDate(35));
-//console.log(now.toString());
-
-let epoch = new Date(0);
-//console.log(epoch);
-
-let myDOB = new Date(2006, 9, 19, 11, 44, 32)
-//console.log(myDOB);
-
-let myYear = new Date("2020-12-15T12:59:00");
-/* console.log(myYear.getFullYear());
-console.log(myYear.getMonth());
-console.log(myYear.getDay());
-console.log(myYear.getTime()); */
-
-let get = new Date();
-//console.log(get);
-//console.log(get.getUTCHours());
-//console.log(get.getUTCDay());
-//console.log(get.getTime());
-
-let dateA = new Date(2025, 0, 17);
-let dateB = new Date(2025, 0, 2);
-if (dateB > dateA) {
-   // console.log("dateB is older than dateA");
-    
+function divideNumber(a,c) {
+    let divide = a/c ;
+    return divide ;
 }
 
-if (dateA > dateB) {
-    // console.log("dateA is older than DateA");
-}
+let results = divideNumber (10/2) ;
+//console.log(results);
 
-if (dateB.getTime() > dateA.getTime()) {
-   // console.log("dateA is 15 days ago than dateB");
-}
+let users = [
+    {UID: 111, userName: "Sneha" },
+    {UID: 231, userName: "Shekharxxv" },
+    {UID:441, userName: "yxvii" }
+]
+let userID = users.map(user => user.UID)
+//console.log(userID);
 
-let date1st = new Date(1970 , 0, 1);
-let date2nd = new Date(2025 , 10 , 15);
-let diffInDate = date2nd.getTime() - date1st.getTime();
-//console.log(diffInDate);
-let millisecond = new Date();
-//console.log(millisecond.getTime());
+let gamers = [
+    {userA: "shiuushiya", age:21},
+    {userB: "charmerchandan", age:20},
+    {userC: "noobajay", age:19},
+    {userD: "vicksvickey", age:17},
+]
 
-let DateC = new Date(2025, 10, 15);
-let DateD = new Date(2025, 10, 14);
+let teenagers = gamers.filter(function (age) {
+    return age >= 18;
+})
+//console.log(teenagers);
 
-let diffInMillis = DateC.getTime() - DateD.getTime();
-//console.log(diffInMillis);
+let products = [
+    {name: "Laptop", price:51500, instock: false},
+    {name: "Mouse" , price: 699, instock: true},
+    {name: "keyboard", price: 999, instock: true}
+]
 
-let vvii = new Date();
-console.log(vvii.toLocaleDateString());
-console.log(vvii.toLocaleTimeString());
+let available = products.filter(product => product.instock);
+//console.log(available);
 
-let xi = new Date();
-let collection = {
-    datestyle: 'full',
-    timestyle: "long",
-    timeZone: "America/New_York"
-} ;
-console.log(xi);
-
-
-let professionalWay = new Intl.DateTimeFormat('en-US')
-console.log(professionalWay.format(Date));
-
-
-
-
+let webDev = ["html", "css", "JavaScript"] ;
+let frontend = webDev;
+frontend.push("react");
+console.log(webDev);
 
 
 
