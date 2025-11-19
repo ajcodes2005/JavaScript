@@ -32,9 +32,31 @@ const newArra1 = myArra1.join();
 //console.log(typeof newArra1);
 
 let myArraB = new Array(myArra1)
-console.log( "Z", myArraB);
+//console.log( "Z", myArraB);
 const myArraC = myArraB.slice(13,17);
-console.log(myArraC);
+//console.log(myArraC);
+
+let boxA = ["Mouse", "Smartphone", "Earbuds", "Laptop" ];
+//console.log(boxA);
+let result = boxA.slice(2,3);
+//console.log(result);
+
+let boxB = [13, 17, 23, 29];
+let resultA = boxB.slice(0,3);
+//console.log(resultA);
+//console.log(boxB);
+
+let boxC = [88, 25, 35, 67, 11];
+//boxC.splice(3,4);
+//console.log(boxC);
+boxC.splice(0,3, 62, 12, 92,);
+console.log(boxC);
+
+
+
+
+
+
 
 
 
