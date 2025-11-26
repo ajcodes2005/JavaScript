@@ -31,7 +31,7 @@ console.log(breakfast);
 const pattern = [1, 2, 5, 9, 14, 20, 27, 35];
 console.log(pattern);
 
-let 
+
 
 
 
