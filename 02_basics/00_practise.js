@@ -83,12 +83,51 @@ let magic = ["electricity" , ["electron"]]
 //console.log(magic[1]);
 
 let digit = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, [88253, 56711, "0344AH"]]
-console.log(digit);
-console.log(digit[1] [0]);
+//console.log(digit);
+//console.log(digit.indexOf[56711]);
+//console.log(digit[1] [0]);
+let nestedArrayIndex = digit.findIndex(item =>Array.isArray(item));
+let insideIndex = digit[nestedArrayIndex].indexOf(88253)
+
+//console.log("Nested Array at:" , nestedArrayIndex);
+//console.log("value index inside nested array:", insideIndex);
+
+
 
 const flow = ["elctricity", ["Computer", "Bulb", "Motor"] ]
-console.log(flow);
-console.log(flow[1] [1]);
+//console.log(flow);
+//console.log(flow[1] [1]);
+
+let dimension = [
+    [
+        [2,3],
+        [5,7]
+    ],
+
+    [
+        [8,11],
+        [13,17]
+    ]
+]
+//console.log(dimension);
+//console.log(dimension.length);
+//console.log(dimension[0] [2]);
+//console.log(dimension[1] [0]);
+
+const scientists = ["Einstein", "Bohr", "Heisenberg"]
+//console.log(scientists);
+//console.log(scientists.indexOf("Bohr"));
+//console.log(scientists.indexOf("Ramanujan"));
+scientists.push("Dirac")
+
+
+
+
+
+
+
+
+
 
 
 
