@@ -118,7 +118,64 @@ const scientists = ["Einstein", "Bohr", "Heisenberg"]
 //console.log(scientists);
 //console.log(scientists.indexOf("Bohr"));
 //console.log(scientists.indexOf("Ramanujan"));
-scientists.push("Dirac")
+//scientists.push("Dirac")
+//console.log(scientists);
+//console.log(scientists.length);
+
+const elements = ["Hydrogen", "Helium", "Oxygen"]
+const newSize = elements.push("Neon")
+const firstPlace = elements.unshift("Carbon")
+//console.log(elements);
+//console.log(newSize);
+//console.log(firstPlace);
+
+const essential = ["Plastic", "Iron", "Steel" ]
+//console.log(essential.pop());
+//console.log(essential.push("Cotton"));
+const addingElement = essential.push("Cotton")
+//console.log(essential);
+//console.log(essential.length);
+//console.log(essential.unshift("Wire"));
+//console.log(essential);
+//console.log(essential.pop());
+const preciousMetals = ["Gold", "Silver", "Platinum"]
+const removedMetals = preciousMetals.pop();
+//console.log(preciousMetals);
+//console.log(preciousMetals.length);
+//console.log(removedMetals);
+
+const variable1 = ["Water", "Electricity", "Internet"];
+const newVariable1 = variable1.shift();
+//console.log(variable1);
+//console.log(newVariable1);
+
+const legends = ["Elon Musk", "Steve Job", "Demis Hassabis", "Jeoffrey Hinton"]
+const indexOfLegends = legends.indexOf("Demis Hassabis");
+if (indexOfLegends !== -1) {
+    legends.splice(indexOfLegends, 1)
+} 
+console.log(legends);
+
+let absoluteCinema = ["Ramayan", "Mahabharat", "Upanishad Ganga", "Chanakya"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
