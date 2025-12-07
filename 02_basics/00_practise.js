@@ -154,9 +154,55 @@ const indexOfLegends = legends.indexOf("Demis Hassabis");
 if (indexOfLegends !== -1) {
     legends.splice(indexOfLegends, 1)
 } 
-console.log(legends);
+//console.log(legends);
 
 let absoluteCinema = ["Ramayan", "Mahabharat", "Upanishad Ganga", "Chanakya"]
+//absoluteCinema.pop()
+//console.log(absoluteCinema [3]);
+//absoluteCinema.push("Mahadev")
+//console.log(absoluteCinema)
+
+const major = [ "Variables", "if Statements", "Arrays", "Loops", "Functions"]
+//backBone.unshift("Variables")
+//console.log(major.length);
+
+const sports = ["MMA", "Football", "Boxing"]
+//sports.unshift("hockey")
+//console.log(sports);
+//sports.shift("")
+//console.log(sports);
+
+const topics = ["Trigonometry", "Geometry", "Probability"]
+for (const topic of topics ) {
+console.log(topic);
+}
+
+const air = ["Nitrogen", "Oxygen", "Argon", "Carbon Dioxide", "Other Gases", "Water Vapour", "Dust Particles" ]
+for (const repeat of air) {
+   console.log(repeat);
+}
+
+const seven = [2, 97, 997,] 
+const prime = seven.map((x) => x*2) 
+console.log(prime);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
