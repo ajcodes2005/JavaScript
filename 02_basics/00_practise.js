@@ -218,8 +218,80 @@ let brothers = ["Ayush", "Rabinder", "Arush", "Pappu"]
 //console.log(brothers.shift());
 
 const proteinSource = ["Egg", "Meat", "Whey"]
-console.log(proteinSource[2]);
-console.log(proteinSource);
+//console.log(proteinSource[2]);
+//console.log(proteinSource);
+
+const basicNeeds = ["Egg", "Milk", "Meat", "Bread"]
+//basicNeeds[0] = "Cheese";
+//console.log(basicNeeds);
+
+const multiDArr = [1, 3, 5, 7, 9, [2, 4, 6, 8, 0]]
+//console.log(multiDArr);
+//console.log(multiDArr.length);
+//console.log(multiDArr.indexOf(9));
+//console.log(multiDArr[5][0]);
+//console.log(multiDArr[5][5]);
+//console.log(multiDArr[5][4]);
+
+//const MultiArr = ["Earth", "Atmosphere", ["Sun", "Moon", "Stars"]];
+//console.log(MultiArr);
+//console.log(MultiArr.length);
+//MultiArr[0] = "Mars";
+//console.log(MultiArr);
+//MultiArr [2] [3] = "Mars";
+//console.log(MultiArr);
+
+let multiArray = [["Oxygen", "Carbon Dioxide", "Nitrogen"], ["Water", "Petroleum", "Sunlight", "2025"], [8, 64, "X-Y"]];
+//console.log(multiArray);
+//console.log(multiArray.length);
+//console.log(multiArray[2]);
+//console.log(multiArray[3]);
+//console.log(multiArray[1] [1]);
+//console.log(multiArray[2] [3]);
+
+const threeDArray = [
+    [
+     ["x-axis", "Y-axis", "Z-axis"] , ["quadrants", "positive", "negative", "irrational", "terminating"], [2023, 2024, 2025]
+    ],
+   [ 
+     ["Rook", "Bishop", "Knight", "King", "Queen"], ["Upside", "Downside", "left", "right", "traverse"]
+   ]
+]
+//console.log(threeDArray);
+//console.log(threeDArray[0] [1] [0]);
+
+// Create 4x4 matrix with default value
+let size = 4;
+let chessBoard = Array.from({ length: size }, () => 
+  Array.from({ length: size }, () => null)
+);
+console.log(chessBoard);
+
+const automobiles = [
+    ["Bike", "Truck", "Scorpio", "Car", "Train"],
+    ["Petroleum", "Electricity", "Diesel", "CNG", "Hybrid"],
+    ["2-wheeler", "3-wheeler", "4-wheeler", "multi-wheeler"]
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
