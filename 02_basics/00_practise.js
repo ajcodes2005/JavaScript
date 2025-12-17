@@ -174,17 +174,70 @@ const sports = ["MMA", "Football", "Boxing"]
 
 const topics = ["Trigonometry", "Geometry", "Probability"]
 for (const topic of topics ) {
-console.log(topic);
+//console.log(topic);
 }
 
 const air = ["Nitrogen", "Oxygen", "Argon", "Carbon Dioxide", "Other Gases", "Water Vapour", "Dust Particles" ]
 for (const repeat of air) {
-   console.log(repeat);
+   //console.log(repeat);
 }
 
 const seven = [2, 97, 997,] 
 const prime = seven.map((x) => x*2) 
-console.log(prime);
+//console.log(prime);
+
+const arrA = ["Sun", "Moon", "Earth", 365, 24]
+//console.log(arrA);
+
+const groceries = ["Egg", "Milk", "Oats"]
+groceries.unshift("Bread")
+//console.log(groceries);
+groceries.push("Cheese")
+//console.log(groceries);
+
+const sourceOfLight = ["Stars", "Lightning", "Fire", "LEDs"]
+//sourceOfLight.pop()
+//console.log(sourceOfLight);
+//console.log(sourceOfLight);
+sourceOfLight.shift()
+//console.log(sourceOfLight);
+
+const myEarbuds = ["Z40 Pro", 1099, ["100hr"]]
+//console.log(myEarbuds);
+//console.log(myEarbuds.length);
+
+const passwords = [183427, "1244AH", 8825356711, [2, 7, 17]]
+//console.log(passwords);
+//console.log(passwords.length);
+
+let brothers = ["Ayush", "Rabinder", "Arush", "Pappu"]
+//console.log(brothers);
+//console.log(brothers.length);
+//console.log(brothers.pop());
+//console.log(brothers);
+//console.log(brothers.shift());
+
+const proteinSource = ["Egg", "Meat", "Whey"]
+console.log(proteinSource[2]);
+console.log(proteinSource);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
