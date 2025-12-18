@@ -311,10 +311,39 @@ const integers = [19, 23, 31, 47]
 //console.log(integers);
 
 let apps = ["Youtube", "Instagram", "facebook"]
+/*
 apps.push("X");
 console.log(apps);
 apps.pop();
 console.log(apps);
+*/
+
+const metals = ["Iron", "Gold", "Copper", "Silver", "Aluminium"];
+//console.log(metals);
+const searchIndex = metals.indexOf("Aluminium");
+//console.log(searchIndex);
+/*
+if (index !== -1) {
+  metals.splice(index, 4)
+}
+*/
+//console.log(metals);
+
+const computer = ["cpu", "monitor", "motherboard", "ram", "gpu"]
+console.log(computer);
+for (const hardware of computer){
+  console.log(hardware); 
+}
+
+function triple(digit) {
+  return digit*3
+}
+const digits = [344, 18101, 987 ];
+const thrice = digits.map(triple);
+console.log(thrice);
+
+
+
 
 
 
