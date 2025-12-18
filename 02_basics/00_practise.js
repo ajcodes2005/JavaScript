@@ -265,13 +265,70 @@ let size = 4;
 let chessBoard = Array.from({ length: size }, () => 
   Array.from({ length: size }, () => null)
 );
-console.log(chessBoard);
+//console.log(chessBoard);
 
 const automobiles = [
     ["Bike", "Truck", "Scorpio", "Car", "Train"],
     ["Petroleum", "Electricity", "Diesel", "CNG", "Hybrid"],
     ["2-wheeler", "3-wheeler", "4-wheeler", "multi-wheeler"]
 ]
+//console.log(automobiles);
+//console.log(automobiles [0][4]);
+//console.log(automobiles [2][0]);
+//console.log(automobiles[2]);
+automobiles [0][4] = "Aeroplane";
+//console.log(automobiles [0] [4]);
+
+let ticTacToe = [
+  [" ", "X", "O"],
+  ["O", "X", " "],
+  ["X", " ", "O"]
+];
+
+function printBoard(board) {
+  //console.log("Tic-Tac-Toe Board:");
+  for (let i = 0; i < board.length; i++) {
+    //console.log(board[i].join(" | "));
+    if (i < board.length - 1) {
+      //console.log("--+---+--");
+    }
+  }
+}
+
+printBoard(ticTacToe);
+//console.log(ticTacToe [2] [1]);
+
+const milkyWay = ["Sun", "Mars", "Moon", "Earth", "Orion Arm", 8, 240]
+//console.log(milkyWay.indexOf("Mars"));
+//console.log(milkyWay.indexOf(""));
+//console.log(milkyWay.indexOf(7));
+
+const integers = [19, 23, 31, 47]
+//console.log(integers);
+//console.log(integers);
+//integers.unshift("Ninety")
+//integers.shift();
+//console.log(integers);
+
+let apps = ["Youtube", "Instagram", "facebook"]
+apps.push("X");
+console.log(apps);
+apps.pop();
+console.log(apps);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
