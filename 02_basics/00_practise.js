@@ -330,9 +330,9 @@ if (index !== -1) {
 //console.log(metals);
 
 const computer = ["cpu", "monitor", "motherboard", "ram", "gpu"]
-console.log(computer);
+//console.log(computer);
 for (const hardware of computer){
-  console.log(hardware); 
+  //console.log(hardware); 
 }
 
 function triple(digit) {
@@ -340,7 +340,75 @@ function triple(digit) {
 }
 const digits = [344, 18101, 987 ];
 const thrice = digits.map(triple);
-console.log(thrice);
+//console.log(thrice);
+
+const fuels = ["petroleum", "diesel", "coal", "propane"]
+for ( const burn of fuels) {
+  //console.log(burn);
+}
+
+const vishnu = "GARUDA"
+for (const vahan of vishnu) {
+  //console.log(vahan);
+}
+
+const naturalNumbers = [1, 10, 99, 100, 999, 1000, 9999, 10000, 99999, 100000, 999999, 10000000]
+for (const playing of naturalNumbers) {
+  //console.log(playing * 10);
+}
+
+function triple(digit) {
+  return digit - 3 ;
+}
+const cube = [125, 216, 343, 512, 729]
+const lessThree = cube.map(triple);
+//console.log(lessThree);
+
+const multipleOfSeven = [77, 7, 777]
+for (const triple of multipleOfSeven) {
+  //console.log(triple * 7)
+}
+
+const emptyBrackets = []
+for (const boxSeven of multipleOfSeven) {
+  emptyBrackets.push(boxSeven *(-7))
+}
+//console.log(emptyBrackets);
+
+function quantity(values) {
+return values > 100000000;  
+}
+const inputNumbers = [999, 9999999, 1000000, 1999, 12, 99, 5353535353];
+const greaterNumbers = inputNumbers.filter(quantity);
+//console.log(greaterNumbers);
+
+function lessThan(results) {
+  return results < 1100;
+}
+const differDigits = [0 , 1, 9, 99, 100, 999, 1000, 9999, 10000, 99999, 100000, 999999, 1000000]
+const digitOfResults = differDigits.filter(lessThan);
+//console.log(digitOfResults);
+
+function letters(aquatic) {
+  return aquatic.length > 5
+}
+const animals = ["Tuna", "Lobster", "Prawns", "Jellyfish"]
+const limits = animals.filter(letters);
+//console.log(limits);
+
+function natureOrgans(parts) {
+  return parts.length > 6
+}
+const components = ["waterfalls", "Rivers", "forest", "animals", "medicine"]
+const release = components.filter(natureOrgans);
+console.log(release);
+
+
+
+
+
+
+
 
 
 
