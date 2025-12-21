@@ -401,12 +401,99 @@ function natureOrgans(parts) {
 }
 const components = ["waterfalls", "Rivers", "forest", "animals", "medicine"]
 const release = components.filter(natureOrgans);
-console.log(release);
+//console.log(release);
 
+const outfit = ["t-shirt", "shirt", "jeans", "shoes"]
+for (const fitCheck of outfit){
+  //console.log(fitCheck);
+}
+//console.log(outfit);
 
+const randomObs = "Black-Bottle";
+for (const viewXyz of randomObs) {
+//console.log(viewXyz);
+}
 
+const myNumber = [88, 25, 35, 67, 11]
+for (const tempNum of myNumber) {
+  //console.log(tempNum -88);
+}
 
+const numbersA = [882, 535, 6711]
+for ( const numberA of numbersA) {
+//console.log(numberA + (-100));
+}
+/*
+let arrayA = ["NewYork", "San Francisco", "California"]
+let arrayB = [] ;
+for (let tempArrayC of arrayA) {
+  arrayA.push(tempArrayC)
+}
+*/
 
+let liquids = ["water", "petroleum", "magma"]
+for (let getLiquid of liquids) {
+  //console.log(getLiquid);
+}
+
+let emptyLiquid = []
+for (let liquidsC of liquids) {
+  emptyLiquid.push(liquidsC)
+}
+//console.log(emptyLiquid);
+
+const gases = ["Nitrogen", "Oxygen", "Argon", "Carbon Dioxide"]
+for (const gas of gases) {
+  //console.log(gas);
+}
+
+const newGases = [] ;
+for (const newGas of gases) {
+newGases.push(newGas)
+}
+//console.log(newGases);
+
+function firstA(digit) {
+  return digit * 3
+}
+const multipleOf13 = [ 13, 117, 1287];
+const tripled = multipleOf13.map(firstA);
+//console.log(tripled);
+
+function cubic(belowHundred) {
+  return belowHundred < 100
+}
+ const cubeOfDigits = [1331, 1728, 2197, 27, 8, 64, 616];
+ const filterKar = cubeOfDigits.filter(cubic);
+ //console.log(filterKar);
+ 
+ const multipleOfTwo = [2,4,6,8,0]
+ const fourX = multipleOfTwo.map(n => n*4);
+ //console.log(fourX);
+
+ const realBrothers = ["ayush", "arush", "rabinder", "avinash"]
+ const theBoyz = realBrothers.map(realBrother => realBrother.toUpperCase())
+ //console.log(theBoyz);
+
+ const siblingsAge = [28, 25, 22, 19, 16];
+ const positiveSiblingsAge = siblingsAge.map(mmm => mmm +5)
+ //console.log(positiveSiblingsAge);
+
+ function bigDigits(bigNumbers) {
+  return bigNumbers > 999 ;
+ }
+ const biggie = [0, 9, 99, 999, 999.0000000001]
+ const resultOfBiggie = biggie.filter(bigDigits);
+ console.log(resultOfBiggie);
+
+ const northEast = ["meghalaya", "mizoram", "nagaland", "tripura", "assam", "manipur", "arunachal pradesh", "sikkim"]
+ const moreThanEight = northEast.filter(yyy => yyy.length> 8);
+ console.log(moreThanEight);
+ 
+ 
+ 
+
+ 
 
 
 
